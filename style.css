@@ -100,7 +100,7 @@ h2{
 }
 .grid-item{
     background-color: antiquewhite;
-    color: black;
+    color:blueviolet;
     padding: 20px;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
