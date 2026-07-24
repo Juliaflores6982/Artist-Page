@@ -1,3 +1,25 @@
+/*NavBar*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: darkviolet;
+}
 /*This is the header*/
 #main-header{
     background-color: blueviolet;
@@ -14,14 +36,14 @@ body{
     background-color: blanchedalmond;
 }
 /*The parent container*/
-#container ul {
+#container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    gap: 1px;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 3);
+    gap: 10px;
     border: 3px dotted purple;
-    margin: 20px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 /*The child*/
 .items li{
