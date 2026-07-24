@@ -92,8 +92,24 @@ h2{
     padding:20px;
     margin: 10px;
 }
+/*My Grid*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid-item{
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border-color: blueviolet;
+    border-radius: 10px;
+    border: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-
+}
 /*This is in a flexbox*/
 .list{
     display: flex;
